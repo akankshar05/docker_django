@@ -5,4 +5,4 @@ ENV PYTHONUNBUFFERED 1
 COPY Pipfile Pipfile.lock /code/
 RUN pip install pipenv && pipenv install --system
 COPY . /code/
-EXPOSE 8000
+# EXPOSE 8000
